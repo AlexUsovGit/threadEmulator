@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.uaa.view.ViewControl">
+   <children>
+      <Pane prefHeight="210.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="207.0" prefWidth="600.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fx:id="imgThr1" fitHeight="60.0" fitWidth="80.0" layoutX="50.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="imgThr2" fitHeight="60.0" fitWidth="80.0" layoutX="50.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="imgThr3" fitHeight="60.0" fitWidth="80.0" layoutX="50.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../1.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="5.0" layoutY="60.0" text="Поток 1" />
+                  <Label layoutX="5.0" layoutY="110.0" text="Поток 2" />
+                  <Label layoutX="5.0" layoutY="160.0" text="Поток 3" />
+                  <Line endX="415.0" layoutX="151.0" layoutY="77.0" startX="-100.0" />
+                  <Line endX="415.0" layoutX="151.0" layoutY="127.0" startX="-100.0" />
+                  <Line endX="415.0" layoutX="151.0" layoutY="177.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
